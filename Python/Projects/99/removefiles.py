@@ -2,7 +2,7 @@ import time, os, shutil
 
 path = input("Enter Path: ")
 days = float(input("Enter the number of days before which the files will be deleted: "))
-seconds = int(days*24*60*60)
+seconds = time.time()-(days*24*60*60)
 listelem = []
 listtime = []
 dest="D:\CutItems"
@@ -19,12 +19,11 @@ if os.path.exists(path):
     print(listelem)
     print(listtime)
     print(seconds)
-    # for i in range(len(listtime)-1):
-    #     if listtime[i] < seconds:
-    #         shutil.move(listelem[i], dest)
-    #         print("File moved")
-    #     else:
-    #         print("File not moved")
-    
+    for i in range(len(listtime)-1):
+        if listtime[i] < seconds:
+            shutil.move(listelem[i], dest)
+            print("File moved")
+        else:
+            print("File not moved")
 else:
     print("Path does not exist")
