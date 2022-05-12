@@ -1,0 +1,1 @@
+# Find LCM of two numbers with the help of a function
