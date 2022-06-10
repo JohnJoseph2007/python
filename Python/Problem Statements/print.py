@@ -8,6 +8,13 @@ for i in range(1, a+1):
     h = str(i)
     arr.append(h)
 
-s = " ".join(arr)
+s = "".join(arr)
 
 print(s)
+
+
+
+# SECOND WAY:
+
+# for i in range(1, a+1):
+#     print(i, end="")
