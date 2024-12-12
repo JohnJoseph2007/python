@@ -13,3 +13,5 @@ cur = con.cursor()
 
 rin = int(input("enter roll no.: "))
 search(rin)
+
+con.close()
