@@ -32,5 +32,5 @@ for i in range(n):
     pickle.dump(l, w)
 w.close()
 
-print(avgsal())
+print("Average salary: " ,avgsal())
 

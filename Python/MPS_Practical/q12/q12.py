@@ -23,6 +23,8 @@ def update():
                 x['marks'] = minp
                 pickle.dump(x, fw)
                 found = True
+            else:
+                pickle.dump(x, fw)
     except EOFError:
         if found:
             print("Record found and updated")

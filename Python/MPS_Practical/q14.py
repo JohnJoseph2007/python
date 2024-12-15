@@ -1,12 +1,16 @@
+cities = {}
 stack = []
 
+n = int(input("No. of cities: "))
+for i in range(n):
+    city = input("city name: ")
+    pop = int(input("population: "))
+    cities[city]=pop
+
 def pushit():
-    n = int(input("Enter no. of entries: "))
-    for i in range(n):
-        city = input("Enter city name: ")
-        pop = int(input("Enter population"))
-        if pop>=1000:
-            stack.append(city)
+    for i in cities:
+        if cities[i]>=1000:
+            stack.append(i)
 
 def popit():
     global stack
