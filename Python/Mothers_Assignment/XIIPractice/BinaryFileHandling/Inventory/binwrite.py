@@ -1,6 +1,6 @@
 import pickle
 
-with open("Python/Mothers_Assignment/2024Practice/BinaryFileHandling/inventory.dat", 'wb') as f:
+with open("Python/Mothers_Assignment/XIIPractice/BinaryFileHandling/inventory.dat", 'wb') as f:
     n = int(input("Enter no.: "))
     for i in range(n):
         ni = input("Enter pID, pName, qty, price").split()

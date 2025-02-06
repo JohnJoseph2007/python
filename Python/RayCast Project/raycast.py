@@ -3,8 +3,8 @@ import numpy
 from limits import *
 from particle import *
 
-WIDTH = 800
-HEIGHT = 800
+WIDTH = 1600
+HEIGHT = 1600
 SCREEN = (WIDTH, HEIGHT)
 
 class Display:

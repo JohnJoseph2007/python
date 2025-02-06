@@ -2,7 +2,7 @@
 # text file 'Gratitude.txt' and then display lines starting with 'I'.
 
 def Start_with_I():
-    with open("Python/Mothers_Assignment/2024Practice/TextFileHandling/gratitude.txt") as f:
+    with open("Python/Mothers_Assignment/XIIPractice/TextFileHandling/gratitude.txt") as f:
         x = f.readlines()
         for i in x:
             if i[0] == "I":

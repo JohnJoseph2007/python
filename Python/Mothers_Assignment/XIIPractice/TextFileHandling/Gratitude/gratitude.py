@@ -3,7 +3,7 @@
 # line
 
 def COUNT():
-    with open('Python/Mothers_Assignment/2024Practice/TextFileHandling/gratitude.txt', 'r') as f:
+    with open('Python/Mothers_Assignment/XIIPractice/TextFileHandling/gratitude.txt', 'r') as f:
         x = f.readlines()
         ln = 0
         for i in x:

@@ -8,7 +8,7 @@
 
 import pickle
 
-with open("Python/Mothers_Assignment/2024Practice/BinaryFileHandling/inventory.dat", 'rb') as f:
+with open("Python/Mothers_Assignment/XIIPractice/BinaryFileHandling/inventory.dat", 'rb') as f:
     try:
         c = 0
         while True:

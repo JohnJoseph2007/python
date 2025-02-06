@@ -22,7 +22,7 @@ class ATM:
         print(anonstring)
         self.anon = anonstring
     
-    def CashWithdrawal(self, amt):
+    def cashwithdrawal(self, amt):
       print(f"Hi there, user of Card Number \"{self.anon}\".")
       print(f"Successfully withdrew amount of {amt} from account.")
       print(f"Balance before withdrawal: {self.bal}")
@@ -33,5 +33,5 @@ class ATM:
 
 lol = ATM(pininput, numberinput)
 lol.anonymous()
-lol.CashWithdrawal(12000)
+lol.cashwithdrawal(12000)
 lol.BalanceEnquiry()

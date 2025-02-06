@@ -5,7 +5,7 @@
 import csv
 
 def maxsalary():
-    with open("Python/Mothers_Assignment/2024Practice/TextFileHandling/SalaryMax/record.csv", "r", newline='') as f:
+    with open("Python/Mothers_Assignment/XIIPractice/TextFileHandling/SalaryMax/record.csv", "r", newline='') as f:
         x=csv.reader(f)
         next(x)
         max = 0

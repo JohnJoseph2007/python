@@ -2,7 +2,7 @@
 
 import pickle
 
-with open("Python/Mothers_Assignment/2024Practice/BinaryFileHandling/Flight/flight.dat", 'wb') as f:
+with open("Python/Mothers_Assignment/XIIPractice/BinaryFileHandling/Flight/flight.dat", 'wb') as f:
     n = int(input("no. "))
     for i in range(n):
         ni = input("no name fare src dest: ").split()

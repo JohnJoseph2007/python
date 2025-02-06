@@ -8,12 +8,12 @@
 import pickle
 
 x= []
-with open("Python/Mothers_Assignment/2024Practice/BinaryFileHandling/Flight/flight.dat", "rb") as fr:
+with open("Python/Mothers_Assignment/XIIPractice/BinaryFileHandling/Flight/flight.dat", "rb") as fr:
     try:
         while True:
             x.append(pickle.load(fr))
     except EOFError:
-        writer = open("Python/Mothers_Assignment/2024Practice/BinaryFileHandling/Flight/record.dat", 'wb')
+        writer = open("Python/Mothers_Assignment/XIIPractice/BinaryFileHandling/Flight/record.dat", 'wb')
         for i in x:
             if i[3]=="BBI" and i[4]=="QAT":
                 pickle.dump(i, writer)

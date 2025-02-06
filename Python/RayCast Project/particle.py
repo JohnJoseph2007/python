@@ -14,8 +14,8 @@ class Particle:
 
     def look(self, screen, walls):
         self.rays = []
-        for i in range(0, 360, 10):
-            self.rays.append(Ray(self.pos[0], self.pos[1], deg2rad(i)))
+        for i in range(0, 720, 1):
+            self.rays.append(Ray(self.pos[0], self.pos[1], deg2rad(i*1.618)))
 
         for ray in self.rays:
             closest = 1000000
